@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HoroscApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_horoscope_fragment">Hello blank Horoscope fragment</string>
+    <string name="hello_blank_luck_fragment">Hello blank Luck fragment</string>
+    <string name="hello_blank_palmistry_fragment">Hello blank Palmistry fragment</string>
+    <string name="horoscope_title">Horoscope</string>
+    <string name="luck_title">Luck</string>
+    <string name="palmistry_title">Palmistry</string>
+</resources>
