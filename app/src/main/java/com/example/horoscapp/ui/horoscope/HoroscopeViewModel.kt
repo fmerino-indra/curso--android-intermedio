@@ -3,7 +3,6 @@ package com.example.horoscapp.ui.horoscope
 import androidx.lifecycle.ViewModel
 import com.example.horoscapp.data.HoroscopeProvider
 import com.example.horoscapp.domain.model.HoroscopeInfo
-import com.example.horoscapp.domain.model.HoroscopeInfo.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -15,7 +14,8 @@ import javax.inject.Inject
 // Si necesitáramos acceder desde otro lado, habría que declararla como var o val
 
 class HoroscopeViewModel @Inject constructor(horoscopeProvider: HoroscopeProvider) : ViewModel() {
-    // Flows
+    // StateFlows (dice que este es un state flow normal, que se consume.
+    // Hay una forma mejor de trabajar que es trabajar con estados: ver HoroscopeDetail
     private var _horoscope = MutableStateFlow<List<HoroscopeInfo>>(emptyList())
     // Creamos una variable no mutable para que desde fuera no se pueda modificar.
     val horoscope: StateFlow<List<HoroscopeInfo>> = _horoscope

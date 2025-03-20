@@ -60,9 +60,13 @@ dependencies {
     //DaggerHilt
 //    implementation(libs.hilt.android)
 //    kapt(libs.hilt.compiler)
-    implementation("com.google.dagger:hilt-android:$hilt_android")
-    kapt("com.google.dagger:hilt-android-compiler:$hilt_android")
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.android.compiler)
 
+    //Retrofit -> Para Rest
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    
     // Por defecto
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
