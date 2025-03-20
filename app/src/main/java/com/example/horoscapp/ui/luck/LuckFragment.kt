@@ -7,13 +7,16 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.horoscapp.R
 import com.example.horoscapp.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 /**
  * A simple [Fragment] subclass.
  * Use the [LuckFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
+@AndroidEntryPoint
 class LuckFragment : Fragment() {
+
     private var _binding: FragmentLuckBinding? = null
     private val binding get() = _binding!!
 
