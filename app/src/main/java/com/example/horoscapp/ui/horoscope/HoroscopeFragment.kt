@@ -13,8 +13,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.horoscapp.data.HoroscopeModel
+import com.example.horoscapp.domain.model.HoroscopeModel
 import com.example.horoscapp.databinding.FragmentHoroscopeBinding
 import com.example.horoscapp.domain.model.HoroscopeInfo
 import com.example.horoscapp.ui.horoscope.adapter.HoroscopeAdapter

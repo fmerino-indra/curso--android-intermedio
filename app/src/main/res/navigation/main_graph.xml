@@ -31,6 +31,6 @@
         tools:layout="@layout/activity_horoscope_detail" >
         <argument
             android:name="sign"
-            app:argType="com.example.horoscapp.data.HoroscopeModel" />
+            app:argType="com.example.horoscapp.domain.model.HoroscopeModel" />
     </activity>
 </navigation>

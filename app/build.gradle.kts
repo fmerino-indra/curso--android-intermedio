@@ -66,7 +66,8 @@ dependencies {
     //Retrofit -> Para Rest
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
-    
+    implementation(libs.logging.interceptor)
+
     // Por defecto
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
