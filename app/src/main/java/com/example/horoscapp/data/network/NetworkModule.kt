@@ -1,6 +1,5 @@
 package com.example.horoscapp.data.network
 
-import com.example.horoscapp.BuildConfig
 import com.example.horoscapp.BuildConfig.*
 import com.example.horoscapp.data.HoroscopeRepositoryImpl
 import com.example.horoscapp.data.core.interceptors.AuthInterceptor

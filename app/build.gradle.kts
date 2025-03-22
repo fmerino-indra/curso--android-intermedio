@@ -58,9 +58,7 @@ android {
 
 dependencies {
 //    val navVersion="2.7.1"
-    val navVersion="2.8.9"
-    val hilt_android="2.51.1" //2.48
-    val hilt_navigation_compose="1.0.0"
+//    val navVersion="2.8.9"
 
     //NavComponent
     implementation(libs.androidx.navigation.fragment.ktx)
